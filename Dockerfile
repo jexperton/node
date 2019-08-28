@@ -30,5 +30,9 @@ ENV RUNTIME_DEPS \
 
 RUN apk add --update --no-cache $RUNTIME_DEPS \
     && pip install --upgrade pip \
-    && npm install -g npm bower gulp grunt \
+    && npm install -g npm \
+        gulp \
+        grunt \
+        @vue/cli \
+        @vue/cli-service-global \
     && rm -rf /var/cache/apk/*
