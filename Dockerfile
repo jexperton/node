@@ -33,6 +33,9 @@ RUN apk add --update --no-cache $RUNTIME_DEPS \
     && npm install -g npm \
         gulp \
         grunt \
+        pm2@latest \
         @vue/cli \
         @vue/cli-service-global \
+        sass-loader \
+        node-sass \
     && rm -rf /var/cache/apk/*
