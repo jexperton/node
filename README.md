@@ -1,0 +1,5 @@
+| build status | tag | image | from |
+| ------------ | --- | ----- | :---- |
+| [![Build Status](https://travis-ci.org/jexperton/node.svg?branch=12)](https://travis-ci.org/jexperton/php) | ```12``` | [Dockerfile](https://github.com/jexperton/node/blob/12/Dockerfile) | [node:12-alpine](https://github.com/nodejs/docker-node/blob/master/12/alpine/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/node.svg?branch=10)](https://travis-ci.org/jexperton/node) | ```10``` | [Dockerfile](https://github.com/jexperton/node/blob/10/Dockerfile) | [node:10-alpine](https://github.com/nodejs/docker-node/blob/master/10/alpine/Dockerfile) |
+| [![Build Status](https://travis-ci.org/jexperton/node.svg?branch=8)](https://travis-ci.org/jexperton/node) | ```8``` | [Dockerfile](https://github.com/jexperton/node/blob/8/Dockerfile) | [node:8-alpine](https://github.com/nodejs/docker-node/blob/master/8/alpine/Dockerfile) |
