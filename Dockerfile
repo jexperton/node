@@ -30,7 +30,7 @@ ENV RUNTIME_DEPS \
 
 RUN apk add --update --no-cache $RUNTIME_DEPS \
     && pip install --upgrade pip \
-    && npm install -g npm \
+    && npm install -g --unsafe npm \
         gulp \
         grunt \
         pm2@latest \
@@ -38,4 +38,5 @@ RUN apk add --update --no-cache $RUNTIME_DEPS \
         @vue/cli-service-global \
         sass-loader \
         node-sass \
+    && npm cache clean --force \
     && rm -rf /var/cache/apk/*
